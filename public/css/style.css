@@ -1,0 +1,57 @@
+body {
+    background-image: linear-gradient(white, cyan);
+  color: #333333;
+  font-family:arial;
+  max-width:650px;
+  margin:0 auto;
+  padding:0 16px;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.intro{
+    font-family:'Lucida Sans';
+    color: #345993;
+    font-size:30px;
+    padding-bottom: 40px;
+}
+
+.main-content{
+    flex-grow:1;
+}
+
+footer {
+   color:#233332;
+   border-top:1px solid #aaaaaa;
+   margin-top:16px;
+   padding:16px 0;
+}
+
+header {
+   margin-top:16px;
+   margin-bottom:48px;
+}
+
+h1{
+    font-size:64px;
+    margin-bottom:16px;
+    color:#222222
+}
+
+header a{
+    color: #555555;
+    font-size:20px;
+    margin-right:16px;
+    text-decoration:none;
+}
+
+header a:link, a:active {
+    color:red;
+}
+
+
+.portrait {
+    width:250px;
+}
+

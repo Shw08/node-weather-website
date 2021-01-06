@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>INDEX</title>
+        <link rel="icon" href="/img/cloud.jpg">
+       <link rel="stylesheet" href="/css/style.css">
+       
+    </head>
+    <body>
+        <div class="main-content">
+          {{>header}}
+          <p class="intro"> Weather Forecasting Site !!</p>
+          <form >
+              <label>ENTER LOCATION:</label><br>
+              <input placeholder="Location" size="50" >
+              <button>
+                  Search
+              </button>
+          </form>
+
+          <p id="message-1"></p>
+          <p id="message-2"></p>
+
+        </div>
+        
+      
+        {{>footer}}
+        <script src="/js/app.js" ></script>
+    </body>
+
+</html>
