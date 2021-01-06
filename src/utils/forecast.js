@@ -14,7 +14,7 @@ const forecast = (latitude, longitude, callback) => {
         }
         else{
             callback(undefined , 
-                'It is  '+ body.current.temperature + ' degree out there . There is ' + body.current.precip + '% chance of rain .The pressure here is ' + body.current.pressure +'.The wind direction is towards ' +body.current.wind_dir +'.'
+                'It is  '+ body.current.temperature + ' degree out there . There is ' + body.current.precip + '% chance of rain .The pressure here is ' + body.current.pressure +'.The wind direction is towards ' +body.current.wind_dir +'.The wiind speed today is ' + body.current.wind_speed +'.'
             )
         }
     })
